@@ -6,7 +6,7 @@
 #time_section {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom right, #5c58b4, #9966c5);
+    background-image: linear-gradient(to bottom right, #e104c3, #04f494);
     padding-bottom: 150px;
 }
 
@@ -40,8 +40,8 @@
     top: 470px;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #e16bd1;
-    border-color: #e16bd1;
+    background: #8bec03;
+    border-color: #8bec03;
     line-height: 0;
 }
 
@@ -56,11 +56,11 @@
 #curve {
     position: absolute;
     top: 460px;
+    fill:#f4d20d;
 }
 
 #curve path {
-    fill: #fff;
-    stroke: #fff;
+    fill:#f4d20d;
 }
 
 .form-group {
@@ -69,4 +69,8 @@
 
 .modal-footer {
     border-top: none;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, #f4d20d, #0d9df4);
 }
