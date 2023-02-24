@@ -1,0 +1,72 @@
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+}
+
+#time_section {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #5c58b4, #9966c5);
+    padding-bottom: 150px;
+}
+
+#app-header {
+    width: 100%;
+    height: 60px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    padding: 12px;
+}
+
+#server_time {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 300px;
+    color: #fff;
+    font-size: 52px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+}
+
+#clock-settings {
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 470px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #e16bd1;
+    border-color: #e16bd1;
+    line-height: 0;
+}
+
+#clock-settings i {
+    font-size: 32px;
+}
+
+#table_section {
+    margin: 50px;
+}
+
+#curve {
+    position: absolute;
+    top: 460px;
+}
+
+#curve path {
+    fill: #fff;
+    stroke: #fff;
+}
+
+.form-group {
+    margin: 0 10px;
+}
+
+.modal-footer {
+    border-top: none;
+}
